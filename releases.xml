@@ -1,4 +1,5 @@
-<Module name=Structures>
+<Module>
+	<Name>Structures</Name>
 	<Type>Workbench</Type>
 	<Url>https://github.com/AtcSoftware/Workbench_Structures</Url>
 	<Last_Release>0.11</Last_Release>
