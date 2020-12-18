@@ -1,0 +1,15 @@
+<Module name=Structures>
+	<Type>Workbench</Type>
+	<Url>https://github.com/AtcSoftware/Workbench_Structures</Url>
+	<Last_Release>0.1</Last_Release>
+	<Releases>
+		<Release>
+			<number>0.1</number>
+			<title>Initial</title>
+			<date>2020.12.18</date>
+			<time>09:49</time>
+			<branch>release_0.1</branch>
+			<dev_commit>fbf30b8dc00fe54e430a7c096d0f2cb05fd3604b</dev_commit>
+		</Release>
+	</Releases>
+</Module>
