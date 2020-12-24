@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<objectData>
+	<VerticalsObjectType>None</VerticalsObjectType>
+	<VerticalsObjectType>MultiBeam</VerticalsObjectType>
+	<VerticalsAttribute>None</VerticalsAttribute>
+	<VerticalsAttribute>2U78X18X0.8</VerticalsAttribute>
+	<VerticalsExtraTopLength>0.0</VerticalsExtraTopLength>
+	<VerticalsExtraBottomLength>0.0</VerticalsExtraBottomLength>
+	<FieldsNumber>1</FieldsNumber>
+	<StartHeel>500.0</StartHeel>
+	<RidgeHeight>1350.0</RidgeHeight>
+	<RidgeDistance>0.0</RidgeDistance>
+	<EndHeel>500.0</EndHeel>
+	<CeilingHeight>0.0</CeilingHeight>
+	<TopRightChordModelObjectType>Beam</TopRightChordModelObjectType>
+	<BottomLeftChordModelObjectType>Beam</BottomLeftChordModelObjectType>
+	<BottomRightChordAttribute>TESSA-BZ-TP150-INF</BottomRightChordAttribute>
+	<TopLeftChordAttribute>TESSA-BZ-TP150</TopLeftChordAttribute>
+	<CreateBottomLeftChord>Yes</CreateBottomLeftChord>
+	<CreateTopRightChord>No</CreateTopRightChord>
+	<BottomLeftChordAttribute>TESSA-BZ-TP150-INF</BottomLeftChordAttribute>
+	<CreateTopLeftChord>Yes</CreateTopLeftChord>
+	<TopRightChordAttribute>TESSA-BZ-TP150</TopRightChordAttribute>
+	<CreateBottomRightChord>No</CreateBottomRightChord>
+	<BottomRightChordModelObjectType>Beam</BottomRightChordModelObjectType>
+	<TopLeftChordModelObjectType>Beam</TopLeftChordModelObjectType>
+	<TopLeftChordExtraStartLength>0.0</TopLeftChordExtraStartLength>
+	<TopRightChordExtraStartLength>0.0</TopRightChordExtraStartLength>
+</objectData>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<objectData>
+	<OnPlanePosition>Right</OnPlanePosition>
+	<OnPlaneDistance>22.62</OnPlaneDistance>
+	<RotationPosition>Back</RotationPosition>
+	<RotationAngle>0.0</RotationAngle>
+	<AtDepthPosition>Middle</AtDepthPosition>
+	<AtDepthDistance>0.0</AtDepthDistance>
+	<Reversed>No</Reversed>
+	<StartDx>-30.0</StartDx>
+	<EndDx>30.0</EndDx>
+	<StartDy>0.0</StartDy>
+	<EndDy>0.0</EndDy>
+	<EndDz>0.0</EndDz>
+	<StartDz>0.0</StartDz>
+	<PartPrefix>CTV</PartPrefix>
+	<PartStartNumber>1</PartStartNumber>
+	<AssemblyPrefix>CTV</AssemblyPrefix>
+	<AssemblyStartNumber>1</AssemblyStartNumber>
+	<Label>TRAVAMENTO</Label>
+	<ShapeColor>(1.0, 1.0, 0.0, 1.0)</ShapeColor>
+	<Finish>GALVANIZADO MINIMIZADO</Finish>
+	<Profile>L30X30X0.80</Profile>
+	<RawMaterial>1008</RawMaterial>
+</objectData>

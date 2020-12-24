@@ -3,6 +3,9 @@
 	<Type>Workbench</Type>
 	<Url>https://github.com/AtcSoftware/Workbench_Structures</Url>
 	<Last_Release>0.11</Last_Release>
+	<Last_Release>
+		<windows>0.12</windows>
+	</Last_Release>
 	<Releases>
 		<Release>
 			<number>0.1</number>
@@ -19,6 +22,15 @@
 			<time>11:18</time>
 			<branch>release_0.11</branch>
 			<dev_commit>fbf30b8dc00fe54e430a7c096d0f2cb05fd3604b</dev_commit>
+		</Release>
+		<Release>
+			<system>windows</system>
+			<number>0.12</number>
+			<title>Initial</title>
+			<date>2020.12.21</date>
+			<time>14:29</time>
+			<branch>release_0.12_windows</branch>
+			<dev_commit>2b9f8e9f5e9bdb9914b6e29db9f1a274eb95d65d</dev_commit>
 		</Release>
 	</Releases>
 </Module>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<objectData>
+	<OnPlanePosition>Middle</OnPlanePosition>
+	<Reversed>Yes</Reversed>
+	<AtDepthDistance>0.0</AtDepthDistance>
+	<AtDepthPosition>Front</AtDepthPosition>
+	<OnPlaneDistance>0.0</OnPlaneDistance>
+	<RotationPosition>Top</RotationPosition>
+	<RotationAngle>0.0</RotationAngle>
+	<StartDx>0.0</StartDx>
+	<EndDx>0.0</EndDx>
+	<StartDy>0.0</StartDy>
+	<EndDy>0.0</EndDy>
+	<EndDz>0.0</EndDz>
+	<StartDz>0.0</StartDz>
+	<PartPrefix/>
+	<PartStartNumber>1</PartStartNumber>
+	<AssemblyPrefix/>
+	<AssemblyStartNumber>1</AssemblyStartNumber>
+	<Label>TERCA</Label>
+	<ShapeColor>(1.0, 0.0, 1.0, 1.0)</ShapeColor>
+	<Finish/>
+	<Profile>ZE250X75X25X71X25X2</Profile>
+	<RawMaterial>Z275</RawMaterial>
+</objectData>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>347</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Contour Plate Properties</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string/>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string/>
+     </property>
+     <widget class="QWidget" name="tabAttributes">
+      <attribute name="title">
+       <string>Attributes</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBoxNumberinSeries">
+         <property name="title">
+          <string>Numbering series</string>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string/>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="1">
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>Prefix:</string>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string/>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>Start number:</string>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string/>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxTogglePartPrefix">
+            <property name="text">
+             <string>Part</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>PartPrefix</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditPartPrefix">
+            <property name="objectProperty" stdset="0">
+             <string>PartPrefix</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+            <property name="objectPropertyValue" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QCheckBox" name="checkBoxTogglePartStartNumber">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>PartStartNumber</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QSpinBox" name="spinBoxPartStartNumber">
+            <property name="contextMenuPolicy">
+             <enum>Qt::NoContextMenu</enum>
+            </property>
+            <property name="suffix">
+             <string/>
+            </property>
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>1000000000</number>
+            </property>
+            <property name="value">
+             <number>1</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">PartStartNumber</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleAssemblyPrefix">
+            <property name="text">
+             <string>Assembly</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>AssemblyPrefix</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditAssemblyPrefix">
+            <property name="objectProperty" stdset="0">
+             <string>AssemblyPrefix</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QCheckBox" name="checkBoxToggleAssemblyStartNumber">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>AssemblyStartNumber</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QSpinBox" name="spinBoxAssemblyStartNumber">
+            <property name="minimum">
+             <number>1</number>
+            </property>
+            <property name="maximum">
+             <number>1000000000</number>
+            </property>
+            <property name="value">
+             <number>1</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>AssemblyStartNumber</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBoxAttributes">
+         <property name="title">
+          <string>Attributes</string>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string/>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string/>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleLabel">
+            <property name="text">
+             <string>Label</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>Label</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" colspan="2">
+           <widget class="QLineEdit" name="lineEditLabel">
+            <property name="text">
+             <string>PLATE</string>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>Label</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleProfile">
+            <property name="text">
+             <string>Profile</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>Profile</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1" colspan="2">
+           <widget class="QLineEdit" name="lineEditProfile">
+            <property name="text">
+             <string>CH10</string>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>Profile</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleRawMaterial">
+            <property name="text">
+             <string>Material</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>RawMaterial</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1" colspan="2">
+           <widget class="QLineEdit" name="lineEditRawMaterial">
+            <property name="text">
+             <string>A36</string>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>RawMaterial</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QPushButton" name="pushButtonSelectMaterial">
+            <property name="text">
+             <string>Select...</string>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string/>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleFinish">
+            <property name="text">
+             <string>Finish</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>Finish</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1" colspan="2">
+           <widget class="QLineEdit" name="lineEditFinish">
+            <property name="objectProperty" stdset="0">
+             <string>Finish</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleShapeColor">
+            <property name="text">
+             <string>Shape Color</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>ShapeColor</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="lineEditShapeColor">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="text">
+             <string>(0.8, 0.8, 0.8, 0.8)</string>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>ShapeColor</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QLineEdit" name="lineEditColor">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QPushButton" name="pushButtonShapeColorSelect">
+            <property name="enabled">
+             <bool>true</bool>
+            </property>
+            <property name="text">
+             <string>Select...</string>
+            </property>
+            <property name="checkable">
+             <bool>false</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleUDA">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string/>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1" colspan="2">
+           <widget class="QPushButton" name="pushButton_UDA">
+            <property name="text">
+             <string>User-defined attributes ...</string>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string/>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Position</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleAtDepthPosition">
+            <property name="text">
+             <string>At depth</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>AtDepthPosition</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBoxAtDepthPosition">
+            <property name="currentText">
+             <string>Front</string>
+            </property>
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>AtDepthPosition</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Middle</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Front</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Behind</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QCheckBox" name="checkBoxToggleAtDepthDistance">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>AtDepthDistance</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxAtDepthDistance">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>AtDepthDistance</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

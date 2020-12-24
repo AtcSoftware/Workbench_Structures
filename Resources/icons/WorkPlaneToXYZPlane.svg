@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   x="0.0000000"
+   y="0.0000000"
+   width="64"
+   height="64"
+   id="svg11300"
+   sodipodi:version="0.32"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="WorkPlaneToXYZPlane.svg">
+  <metadata
+     id="metadata66">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>Corey Woodworth</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/2.0/" />
+        <dc:source>http://jimmac.musichall.cz</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>new</rdf:li>
+            <rdf:li>insert</rdf:li>
+            <rdf:li>window</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/2.0/">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Notice" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/Attribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://web.resource.org/cc/ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="1017"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="7.9999999"
+     inkscape:cx="50.898926"
+     inkscape:cy="33.957076"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:current-layer="svg11300"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-nodes="true"
+     inkscape:window-maximized="1"
+     inkscape:snap-grids="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3016"
+       empspacing="2"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3">
+    <marker
+       inkscape:stockid="Arrow2Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Sstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1621"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#a40000;stroke-opacity:1;fill:#280000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.3) translate(-2.3,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1872"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1606"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Send"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1624"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#a40000;stroke-opacity:1;fill:#280000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.3) rotate(180) translate(-2.3,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1618"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1861"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1859"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1857"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1591"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1854"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1603"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4966"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4964"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Sstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4636"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#34e0e2;stroke-width:1pt;stroke-opacity:0.40930236;fill:#34e0e2;fill-opacity:0.40930236"
+         transform="scale(0.2) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4639"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#34e0e2;stroke-width:1pt;stroke-opacity:0.40930236;fill:#34e0e2;fill-opacity:0.40930236"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4624"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       id="linearGradient5048">
+      <stop
+         style="stop-color:black;stop-opacity:0;"
+         offset="0"
+         id="stop5050" />
+      <stop
+         id="stop5056"
+         offset="0.5"
+         style="stop-color:black;stop-opacity:1;" />
+      <stop
+         style="stop-color:black;stop-opacity:0;"
+         offset="1"
+         id="stop5052" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient12512">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1.0000000"
+         offset="0.0000000"
+         id="stop12513" />
+      <stop
+         style="stop-color:#fff520;stop-opacity:0.89108908"
+         offset="0.50000000"
+         id="stop12517" />
+      <stop
+         style="stop-color:#fff300;stop-opacity:0.0000000"
+         offset="1.0000000"
+         id="stop12514" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4816">
+      <stop
+         style="stop-color:#3465a4;stop-opacity:1"
+         offset="0.0000000"
+         id="stop4818" />
+      <stop
+         style="stop-color:#729fcf;stop-opacity:1"
+         offset="1.0000000"
+         id="stop4820" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4808">
+      <stop
+         style="stop-color:#000000;stop-opacity:1.0000000"
+         offset="0.0000000"
+         id="stop4810" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.0000000"
+         offset="1.0000000"
+         id="stop4812" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3832">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0.0000000"
+         id="stop3834" />
+      <stop
+         style="stop-color:#d3d7cf;stop-opacity:1"
+         offset="1.0000000"
+         id="stop3836" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4808"
+       id="radialGradient1372"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.945734,0,0,0.627274,-9.628455,24.25921)"
+       cx="17.368311"
+       cy="25.681942"
+       fx="17.368311"
+       fy="25.681942"
+       r="11.799845" />
+    <linearGradient
+       id="linearGradient3836-0">
+      <stop
+         style="stop-color:#c4a000;stop-opacity:1;"
+         offset="0"
+         id="stop3838-2" />
+      <stop
+         style="stop-color:#fce94f;stop-opacity:1;"
+         offset="1"
+         id="stop3840-5" />
+    </linearGradient>
+  </defs>
+  <path
+     style="fill:#280000;stroke:#a40000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Sstart)"
+     d="M 8,9 V 61"
+     id="path1589"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:#280000;stroke:#a40000;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Send)"
+     d="M 3,56 H 56"
+     id="path1863"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:22.75200272px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#280000;fill-opacity:1;stroke:none;stroke-width:0.56880009;"
+     x="15.052967"
+     y="40.979923"
+     id="text3381"><tspan
+       sodipodi:role="line"
+       id="tspan3379"
+       x="15.052967"
+       y="40.979923"
+       style="stroke-width:0.56880009;fill:#280000;">XYZ</tspan></text>
+</svg>

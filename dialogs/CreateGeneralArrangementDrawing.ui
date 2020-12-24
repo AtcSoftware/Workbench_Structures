@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GAForm</class>
+ <widget class="QDialog" name="GAForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>294</width>
+    <height>328</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Beam Properties</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>3D Views</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QTableWidget" name="tree3DViews">
+        <property name="editTriggers">
+         <set>QAbstractItemView::SelectedClicked</set>
+        </property>
+        <property name="selectionMode">
+         <enum>QAbstractItemView::ContiguousSelection</enum>
+        </property>
+        <property name="selectionBehavior">
+         <enum>QAbstractItemView::SelectRows</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBoxOptions">
+     <property name="title">
+      <string>Options</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QComboBox" name="comboBoxCreateMode">
+        <item>
+         <property name="text">
+          <string>All selected sections to one drawing</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>One drawing per section</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Empty drawing</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QComboBox" name="comboBoxDrawingProperties">
+        <item>
+         <property name="text">
+          <string>standard</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<objectData>
+	<OnPlanePosition>Middle</OnPlanePosition>
+	<OnPlaneDistance>0.0</OnPlaneDistance>
+	<RotationPosition>Top</RotationPosition>
+	<RotationAngle>0.0</RotationAngle>
+	<AtDepthPosition>Front</AtDepthPosition>
+	<AtDepthDistance>0.0</AtDepthDistance>
+	<Reversed>Yes</Reversed>
+	<StartDx>0.0</StartDx>
+	<EndDx>0.0</EndDx>
+	<StartDy>0.0</StartDy>
+	<EndDy>0.0</EndDy>
+	<EndDz>0.0</EndDz>
+	<StartDz>0.0</StartDz>
+	<PartPrefix>CA</PartPrefix>
+	<PartStartNumber>1</PartStartNumber>
+	<AssemblyPrefix>CA</AssemblyPrefix>
+	<AssemblyStartNumber>1</AssemblyStartNumber>
+	<Label>CAIBRO_ABERTO</Label>
+	<ShapeColor>(0.0, 1.0, 0.5, 1.0)</ShapeColor>
+	<Finish/>
+	<Profile>UEP80X39X41X10X0.80</Profile>
+	<RawMaterial>1008</RawMaterial>
+</objectData>
