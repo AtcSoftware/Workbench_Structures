@@ -3,3 +3,4 @@ __pycache__/
 /data/settings.xml
 Plugins/*/
 updates.xml
+sync.ffs_db
