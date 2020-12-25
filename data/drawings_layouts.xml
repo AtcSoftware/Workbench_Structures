@@ -1,0 +1,30 @@
+<DrawingsLayouts>
+	<DrawingLayout Name="TESSA_A1_MONTAGEM" ObjectType="ModelObject.GeneralArrangementDrawing">
+		<Template Name="TESSA_A1_MARGEM">
+			<File>/Templates/TESSA_A1_MARGEM.FCStd</File>
+			<SelfPosition>Center</SelfPosition>
+			<BaseObjectName>Drawing</BaseObjectName>
+			<PlaceOnBaseObject>Center</PlaceOnBaseObject>
+			<Dx>0</Dx>
+			<Dy>0</Dy>
+		</Template>
+		<Template Name="Teste_Legenda">
+			<File>/Templates/Teste_Legenda.FCStd</File>
+			<SelfPosition>BottomRight</SelfPosition>
+			<BaseObjectName>Drawing</BaseObjectName>
+			<PlaceOnBaseObject>BottomRight</PlaceOnBaseObject>
+			<Dx>-10</Dx>
+			<Dy>10</Dy>
+		</Template>
+	</DrawingLayout>
+	<DrawingLayout Name="ObjectDrawing_Standard" ObjectType="ModelObject.ObjectDrawing">
+		<Template Name="DrawingTemplate">
+			<File>/Templates/ObjectDrawing_Standard_Title_Block.FCStd</File>
+			<SelfPosition>BottomRight</SelfPosition>
+			<BaseObjectName>Drawing</BaseObjectName>
+			<PlaceOnBaseObject>BottomRight</PlaceOnBaseObject>
+			<Dx>-10</Dx>
+			<Dy>10</Dy>
+		</Template>
+	</DrawingLayout>
+</DrawingsLayouts>

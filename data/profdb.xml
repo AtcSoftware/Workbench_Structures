@@ -1,0 +1,460 @@
+<?xml version="1.0" ?>
+<profdb>
+	<category name="U profiles">
+		<profile name="U">
+			<type name = "Profile type">U</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">U</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width,th</expression>
+		</profile>		
+	</category>
+	<category name="J profiles">
+		<profile name="J">
+			<type name = "Profile type">J</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">J</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<edge name="Edge" symbol="e" unit="mm"></edge>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width,edge,th</expression>
+		</profile>		
+	</category>
+	<category name="Big Dutchman profiles">
+		<profile name="Z">
+			<type name = "Profile type">Z</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">ZBIG</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<fold name="Fold" symbol="f" unit="mm"></fold>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width,fold,th</expression>
+		</profile>		
+	</category>
+	<category name="ZS profiles">
+		<profile name="ZS">
+			<type name = "Profile type">ZS</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">ZS</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width1 name="Width1" symbol="w1" unit="mm"></width1>
+			<width2 name="Width2" symbol="w2" unit="mm"></width2>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width1,width2,th</expression>
+		</profile>		
+	</category>
+	<category name="ZE profiles">
+		<profile name="ZE">
+			<type name = "Profile type">ZE</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">ZE</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width1 name="Width1" symbol="w1" unit="mm"></width1>
+			<edgefold1 name="Edgefold1" symbol="ef1" unit="mm"></edgefold1>
+			<width2 name="Width2" symbol="w2" unit="mm"></width2>
+			<edgefold2 name="Edgefold2" symbol="ef2" unit="mm"></edgefold2>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width1,edgefold1,width2,edgefold2,th</expression>
+		</profile>		
+	</category>
+	<category name="Banheiro Pronto">
+		<profile name="CD70X70X1.25">
+			<sketch_name name="Sketch name">CD</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">70</height>
+			<width name="Width" symbol="w" unit="mm">70</width>
+		</profile>		
+	</category>
+	<category name="FE profiles">
+		<profile name="FE">
+			<type name = "Profile type">FE</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">FE</sketch_name>
+			<diameter name="Diameter" symbol="d" unit="mm"></diameter>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,diameter</expression>
+		</profile>		
+	</category>
+	<category name="UE profiles">
+		<profile name="UE">
+			<type name = "Profile type">UE</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">UE</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<ef name="Edge fold" symbol="ef" unit="mm"></ef>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width,ef,th</expression>
+		</profile>		
+	</category>
+	<category name="CB profiles">
+		<profile name="CB">
+			<type name = "Profile type">CB</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">CB</sketch_name>
+			<h name="Height" symbol="h" unit="mm"></h>
+			<w1 name="Width 1" symbol="w1" unit="mm"></w1>
+			<w2 name="Width 2" symbol="w2" unit="mm"></w2>
+			<e1 name="Edge fold 1" symbol="e1" unit="mm"></e1>
+			<e2 name="Edge fold 2" symbol="e2" unit="mm"></e2>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,h,w1,w2,e1,e2,th</expression>
+		</profile>		
+	</category>
+	<category name="CR profiles">
+		<profile name="CR">
+			<type name = "Profile type">CR</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">CR</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<ef name="Edge fold" symbol="ef" unit="mm"></ef>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,width,height,ef,th</expression>
+		</profile>		
+	</category>
+	<category name="CA profiles">
+		<profile name="CA">
+			<type name = "Profile type">CA</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">CA</sketch_name>
+			<A name="A" symbol="A" unit="mm"></A>
+			<B name="B" symbol="B" unit="mm"></B>
+			<C name="C" symbol="C" unit="mm"></C>
+			<D name="D" symbol="D" unit="mm"></D>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,A,B,C,D,th</expression>
+		</profile>		
+	</category>		
+	<category name="L profiles">
+		<profile name="L">
+			<type name = "Profile type">LD</type>
+			<subtype name="Profile subtype">Cold rolled</subtype>
+			<sketch_name name="Sketch name">LD</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width,th</expression>
+		</profile>		
+	</category>
+	<category name="Tube profiles">
+		<profile name="TBRT">
+			<type name = "Profile type">TBRT</type>
+			<subtype name="Profile subtype">Hot rolled</subtype>
+			<sketch_name name="Sketch name">TBRT</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width,th</expression>
+		</profile>
+		<profile name="TBR">
+			<type name = "Profile type">TBR</type>
+			<subtype name="Profile subtype">Hot rolled</subtype>
+			<sketch_name name="Sketch name">TBR</sketch_name>
+			<diameter name="Diameter" symbol="h" unit="mm"></diameter>
+			<th name="Thickness" symbol="th" unit="mm"></th>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,diameter,th</expression>
+		</profile>		
+	</category>
+	<category name="Plate profiles">
+		<profile name="PLT">
+			<type name = "Profile type">PLT</type>
+			<subtype name="Profile subtype">Plate</subtype>
+			<sketch_name name="Sketch name">CHP</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width</expression>
+		</profile>
+		<profile name="CH">
+			<type name = "Profile type">CH</type>
+			<subtype name="Profile subtype">Plate</subtype>
+			<sketch_name name="Sketch name">CHP</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width</expression>
+		</profile>
+		<profile name="CH.">
+			<type name = "Profile type">CH.</type>
+			<subtype name="Profile subtype">Plate</subtype>
+			<sketch_name name="Sketch name">CHP</sketch_name>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<parametric name="Parametric">True</parametric>
+			<expression name="Expression">profile,height,width</expression>
+		</profile>
+	</category>
+	<category name="I profiles">
+		<subcategory name="W">
+			<profile name="W">
+				<type name = "Profile type">I</type>
+				<subtype name="Profile subtype">Hot rolled</subtype>
+				<sketch_name name="Sketch name">W</sketch_name>
+				<height name="Height" symbol="h" unit="mm"></height>
+				<width name="Width" symbol="b" unit="mm"></width>
+				<web_th name="Web thickness" symbol="s" unit="mm"></web_th>
+				<flange_th name="Flange thickness" symbol="t" unit="mm"></flange_th>
+				<r name="Rounding radius" symbol="r" unit="mm"></r>				
+				<parametric name="Parametric">True</parametric>
+				<expression name="Expression">profile,height,width,flange_th,web_th,r</expression>
+			</profile>
+			<subcategory name="W200-250">
+				<profile name="W200X15">
+					<type name = "Profile type">I</type>
+					<subtype name="Profile subtype">Hot rolled</subtype>
+					<sketch_name name="Sketch name">W</sketch_name>
+					<height name="Height" symbol="h" unit="mm">200</height>
+					<width name="Width" symbol="b" unit="mm">102</width>
+					<web_th name="Web thickness" symbol="s" unit="mm">4.76</web_th>
+					<flange_th name="Flange thickness" symbol="t" unit="mm">4.76</flange_th>
+					<r name="Rounding radius" symbol="r" unit="mm">12.7</r>
+					<parametric name="Parametric">False</parametric>
+					<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">15</weight_by_length>
+				</profile>
+			</subcategory>
+			<profile name="W610X101">
+				<type name = "Profile type">I</type>
+				<subtype name="Profile subtype">Hot rolled</subtype>
+				<sketch_name name="Sketch name">W</sketch_name>
+				<height name="Height" symbol="h" unit="mm">603</height>
+				<width name="Width" symbol="b" unit="mm">229</width>
+				<web_th name="Web thickness" symbol="s" unit="mm">11.1</web_th>
+				<flange_th name="Flange thickness" symbol="t" unit="mm">14.3</flange_th>
+				<r name="Rounding radius" symbol="r" unit="mm">23.81</r>
+				<parametric name="Parametric">False</parametric>
+				<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">101</weight_by_length>
+			</profile>				
+		</subcategory>
+	</category>
+	<category name="Perfis Eplast">
+		<profile name="MI200X80">
+			<sketch_name name="Sketch name">MI200X80_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">80.0</height>
+			<width name="Width" symbol="w" unit="mm">200</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.83</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">2.039</weight_by_length_gross>
+		</profile>
+		<profile name="MI200X100">
+			<sketch_name name="Sketch name">MI200X100_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">100</height>
+			<width name="Width" symbol="w" unit="mm">200</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">2.24</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">2.567</weight_by_length_gross>
+		</profile>
+		<profile name="ACOPLE">
+			<sketch_name name="Sketch name">ACOPLE_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">58.7088</height>
+			<width name="Width" symbol="w" unit="mm">13</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.168</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">0.241</weight_by_length_gross>
+		</profile>
+		<profile name="MM80X80">
+			<sketch_name name="Sketch name">MM80X80_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.101</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">1.22</weight_by_length_gross>
+		</profile>
+		<profile name="MM100X80">
+			<sketch_name name="Sketch name">MM100X80_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.385</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">1.26</weight_by_length_gross>
+		</profile>
+		<profile name="MM100X100">
+			<sketch_name name="Sketch name">MM100X100_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.589</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">1.471</weight_by_length_gross>
+		</profile>
+		<profile name="MA80">
+			<sketch_name name="Sketch name">MA80_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.219</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">0.219</weight_by_length_gross>
+		</profile>
+		<profile name="MA100">
+			<sketch_name name="Sketch name">MA100_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.267</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">0.267</weight_by_length_gross>
+		</profile>
+		<profile name="MU80">
+			<sketch_name name="Sketch name">MU80_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">90.5</height>
+			<width name="Width" symbol="w" unit="mm">29</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.468</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">0.468</weight_by_length_gross>
+		</profile>
+		<profile name="MU100">
+			<sketch_name name="Sketch name">MU100_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.533</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">0.533</weight_by_length_gross>
+		</profile>
+		<profile name="MC">
+			<sketch_name name="Sketch name">MC_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.338</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">0.338</weight_by_length_gross>
+		</profile>
+		<profile name="CHAVETA-ESPECIAL">
+			<sketch_name name="Sketch name">CHAVETA-ESPECIAL_0</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm"></height>
+			<width name="Width" symbol="w" unit="mm"></width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.223</weight_by_length>
+			<weight_by_length_gross name="Weight by length gross" symbol="wblg" unit="Kg/m">0.223</weight_by_length_gross>
+		</profile>
+	</category>
+	<category name="Perfis Tessa">
+		<profile name="C80X44X0.80">
+			<sketch_name name="Sketch name">C80X44X0.80</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.62</weight_by_length>
+		</profile>
+		<profile name="C100X64X1.25">
+			<sketch_name name="Sketch name">C100X64X1.25</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">3.18</weight_by_length>
+		</profile>		
+		<profile name="TP80X45X0.80">
+			<sketch_name name="Sketch name">TP80X45X0.80</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">80.</height>
+			<width name="Width" symbol="w" unit="mm">45.24</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.73</weight_by_length>			
+		</profile>		
+		<profile name="TP150X85X1.25">
+			<sketch_name name="Sketch name">TP150X85X1.25</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">152.96</height>
+			<width name="Width" symbol="w" unit="mm">84.96</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">4.9</weight_by_length>			
+		</profile>		
+		<profile name="TP39X19X0.80">
+			<sketch_name name="Sketch name">TP39X19X0.80</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">39</height>
+			<width name="Width" symbol="w" unit="mm">19</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.74</weight_by_length>
+		</profile>
+		<profile name="PDM-78X18X0.80">
+			<sketch_name name="Sketch name">PDM-78X18X0.80</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.81</weight_by_length>
+		</profile>
+		<profile name="PDM-78X24X0.80">
+			<sketch_name name="Sketch name">PDM-78X24X0.80</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.88</weight_by_length>
+		</profile>
+		<profile name="PDM-80X41X0.80">
+			<sketch_name name="Sketch name">PDM-80X41X0.80</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.38</weight_by_length>
+		</profile>
+		<profile name="PDME-47.5X18X10x0.50">
+			<sketch_name name="Sketch name">PDME-47.5X18X10x0.50</sketch_name>
+			<parametric name="Parametric">False</parametric>
+		</profile>		
+		<profile name="UEP80X39X41X10X0.80">
+			<sketch_name name="Sketch name">UEP80X39X41X10X0.80</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">80</height>
+			<width name="Width" symbol="w" unit="mm">41</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.036209</weight_by_length>
+		</profile>
+		<profile name="CE30X20X9X0.65">
+			<sketch_name name="Sketch name">CE30X20X9X0.65</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">29.95</height>
+			<width name="Width" symbol="w" unit="mm">36.7</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.487166</weight_by_length>
+		</profile>
+		<profile name="CE30X30X15X0.65">
+			<sketch_name name="Sketch name">CE30X30X15X0.65</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">29.95</height>
+			<width name="Width" symbol="w" unit="mm">58.7</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">0.55</weight_by_length>
+		</profile>
+		<profile name="TB130X0.65">
+			<sketch_name name="Sketch name">TB130X0.65</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">129.76161059</height>
+			<width name="Width" symbol="w" unit="mm">60.52731832</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.216153</weight_by_length>
+		</profile>
+		<profile name="TB132.5X0.65">
+			<sketch_name name="Sketch name">TB132.5X0.65</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">132.5</height>
+			<width name="Width" symbol="w" unit="mm">50</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.060906</weight_by_length>
+		</profile>
+		<profile name="TB216X0.65">
+			<sketch_name name="Sketch name">TB216X0.65</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<height name="Height" symbol="h" unit="mm">216.43364356</height>
+			<width name="Width" symbol="w" unit="mm">110.99612397</width>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">1.757458</weight_by_length>
+		</profile>
+	</category>
+	<category name="Perfis MadreMax">
+		<profile name="MADREMAX-250X2.5">
+			<sketch_name name="Sketch name">MADREMAX-250X2.5</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">12.17</weight_by_length>
+		</profile>
+		<profile name="MADREMAX-250X1.95">
+			<sketch_name name="Sketch name">MADREMAX-250X1.95</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">9.49</weight_by_length>
+		</profile>
+		<profile name="MADREMAX-300X2.65">
+			<sketch_name name="Sketch name">MADREMAX-300X2.65</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">15.5</weight_by_length>
+		</profile>
+		<profile name="MADREMAX-150X1.5">
+			<sketch_name name="Sketch name">MADREMAX-150X1.5</sketch_name>
+			<parametric name="Parametric">False</parametric>
+			<weight_by_length name="Weight by length" symbol="wbl" unit="Kg/m">2.5</weight_by_length>
+		</profile>
+	</category>
+</profdb>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<objectData>
+	<BoltSize>12.7</BoltSize>
+	<BoltStandard>A325</BoltStandard>
+	<BoltType>Site</BoltType>
+	<ThreadInMaterial>Yes</ThreadInMaterial>
+	<CutLength>85.0</CutLength>
+	<ExtraLength>3.0</ExtraLength>
+	<OnPlanePosition>Middle</OnPlanePosition>
+	<OnPlaneDistance>0.0</OnPlaneDistance>
+	<RotationPosition>Front</RotationPosition>
+	<RotationAngle>0.0</RotationAngle>
+	<AtDepthPosition>Middle</AtDepthPosition>
+	<AtDepthDistance>0.0</AtDepthDistance>
+	<StartDx>0.0</StartDx>
+	<EndDx>0.0</EndDx>
+	<StartDy>0.0</StartDy>
+	<EndDy>0.0</EndDy>
+	<StartDz>0.0</StartDz>
+	<EndDz>0.0</EndDz>
+	<BoltDistanceX>0.00</BoltDistanceX>
+	<BoltDistanceY>0.00</BoltDistanceY>
+	<BoltGroupShape>Array</BoltGroupShape>
+	<CreateHoles>Yes</CreateHoles>
+	<Tolerance>1.3</Tolerance>
+	<HoleType>Slotted</HoleType>
+	<SlottedHoleX>0.0</SlottedHoleX>
+	<SlottedHoleY>0.0</SlottedHoleY>
+	<RotateSlots>Parallel</RotateSlots>
+</objectData>

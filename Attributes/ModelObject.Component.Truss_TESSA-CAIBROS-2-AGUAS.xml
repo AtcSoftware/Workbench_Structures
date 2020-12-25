@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<objectData>
+	<VerticalsObjectType>None</VerticalsObjectType>
+	<VerticalsObjectType>Beam</VerticalsObjectType>
+	<VerticalsAttribute>None</VerticalsAttribute>
+	<VerticalsAttribute>TESSA-PONTALETE-ABERTO</VerticalsAttribute>
+	<FieldsNumber>2</FieldsNumber>
+	<StartHeel>0.0</StartHeel>
+	<RidgeHeight>1000.0</RidgeHeight>
+	<RidgeDistance>0.0</RidgeDistance>
+	<EndHeel>0.0</EndHeel>
+	<CeilingHeight>0.0</CeilingHeight>
+	<TopRightChordModelObjectType>Beam</TopRightChordModelObjectType>
+	<BottomLeftChordModelObjectType>Beam</BottomLeftChordModelObjectType>
+	<BottomRightChordAttribute>standard</BottomRightChordAttribute>
+	<TopLeftChordAttribute>TESSA-CAIBRO-ABERTO</TopLeftChordAttribute>
+	<CreateBottomLeftChord>No</CreateBottomLeftChord>
+	<CreateTopRightChord>Yes</CreateTopRightChord>
+	<BottomLeftChordAttribute>standard</BottomLeftChordAttribute>
+	<CreateTopLeftChord>Yes</CreateTopLeftChord>
+	<TopRightChordAttribute>TESSA-CAIBRO-ABERTO-INVERTIDO</TopRightChordAttribute>
+	<CreateBottomRightChord>No</CreateBottomRightChord>
+	<BottomRightChordModelObjectType>Beam</BottomRightChordModelObjectType>
+	<TopLeftChordModelObjectType>Beam</TopLeftChordModelObjectType>
+	<TopLeftChordExtraStartLength>500.0</TopLeftChordExtraStartLength>
+	<TopRightChordExtraStartLength>500.0</TopRightChordExtraStartLength>
+</objectData>

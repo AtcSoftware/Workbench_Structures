@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
 /data/settings.xml
-*branch*
-ifcopenshell
-sync.ffs_db
+Plugins/*/
+updates.xml

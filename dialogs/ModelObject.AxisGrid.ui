@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>530</width>
+    <height>372</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Axis Grid Properties</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidgetGrid">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tabAttributes">
+      <attribute name="title">
+       <string>Attribues</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_10">
+       <item row="0" column="0" colspan="2">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Coordinates</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleXSpan">
+            <property name="text">
+             <string>X</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>XSpan</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditXSpan">
+            <property name="objectProperty" stdset="0">
+             <string>XSpan</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+            <property name="objectPropertyValue" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleYSpan">
+            <property name="text">
+             <string>Y</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>YSpan</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditYSpan">
+            <property name="objectProperty" stdset="0">
+             <string>YSpan</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+            <property name="objectPropertyValue" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleZSpan">
+            <property name="text">
+             <string>Z</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>ZSpan</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditZSpan">
+            <property name="objectProperty" stdset="0">
+             <string>ZSpan</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+            <property name="objectPropertyValue" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Labels</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_8">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleXLabelsString">
+            <property name="text">
+             <string>X</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>XLabelsString</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditXLabelsString">
+            <property name="objectProperty" stdset="0">
+             <string>XLabelsString</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+            <property name="objectPropertyValue" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleYLabelsString">
+            <property name="text">
+             <string>Y</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>YLabelsString</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEditYLabelsString">
+            <property name="objectProperty" stdset="0">
+             <string>YLabelsString</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+            <property name="objectPropertyValue" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleZLabelsString">
+            <property name="text">
+             <string>Z</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>ZLabelsString</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEditXLabelsString_3">
+            <property name="objectProperty" stdset="0">
+             <string>XLabelsString</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+            <property name="objectPropertyValue" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="title">
+          <string>Line extensions</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleXGlobalStartExtension">
+            <property name="text">
+             <string>X</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>XGlobalStartExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxXGlobalStartExtension">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="decimals">
+             <number>2</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>1800.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>XGlobalStartExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QCheckBox" name="checkBoxToggleXGlobalEndExtension">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>XGlobalEndExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxXGlobalEndExtension">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="decimals">
+             <number>2</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>1800.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>XGlobalEndExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleYGlobalStartExtension">
+            <property name="text">
+             <string>Y</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>YGlobalStartExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxYGlobalStartExtension">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="decimals">
+             <number>2</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>1800.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>YGlobalStartExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QCheckBox" name="checkBoxToggleYGlobalEndExtension">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>YGlobalEndExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxYGlobalEndExtension">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="decimals">
+             <number>2</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>1800.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>YGlobalEndExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleZGlobalStartExtension">
+            <property name="text">
+             <string>Z</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>ZGlobalStartExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxZGlobalStartExtension">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="decimals">
+             <number>2</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>1800.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>ZGlobalStartExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QCheckBox" name="checkBoxToggleZGlobalEndExtension">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>ZGlobalEndExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxZGlobalEndExtension">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="decimals">
+             <number>2</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>1800.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>ZGlobalEndExtension</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QGroupBox" name="groupBox_7">
+         <property name="title">
+          <string>Origin</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_9">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleOriginX">
+            <property name="text">
+             <string>X</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>OriginX</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxOriginX">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="wrapping">
+             <bool>false</bool>
+            </property>
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>OriginX</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleOriginY">
+            <property name="text">
+             <string>Y</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>OriginY</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxOriginY">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>OriginY</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleOriginZ">
+            <property name="text">
+             <string>Z</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>OriginZ</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string>toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxOriginZ">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="sizeIncrement">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string>OriginZ</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabAdvanced">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <attribute name="title">
+       <string>Advanced</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>X Attributes</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButtonAddX">
+            <property name="text">
+             <string>Add</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButtonRemoveX">
+            <property name="text">
+             <string>Remove</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>91</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QTableWidget" name="tableWidgetX">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>160</height>
+             </size>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::AllEditTriggers</set>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBox_6">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Y Attributes</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButtonAddY">
+            <property name="text">
+             <string>Add</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButtonRemoveY">
+            <property name="text">
+             <string>Remove</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>91</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QTableWidget" name="tableWidgetY">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>160</height>
+             </size>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::AllEditTriggers</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string>Z Attributes</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButtonAddZ">
+            <property name="text">
+             <string>Add</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="pushButtonRemoveZ">
+            <property name="text">
+             <string>Remove</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>91</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item row="1" column="0" colspan="3">
+           <widget class="QTableWidget" name="tableWidgetZ">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>50</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>160</height>
+             </size>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::AllEditTriggers</set>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

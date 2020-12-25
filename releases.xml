@@ -2,9 +2,8 @@
 	<Name>Structures</Name>
 	<Type>Workbench</Type>
 	<Url>https://github.com/AtcSoftware/Workbench_Structures</Url>
-	<Last_Release>0.12</Last_Release>
 	<Last_Release>
-		<windows>0.12</windows>
+		<windows>0.13</windows>
 	</Last_Release>
 	<Releases>
 		<Release>
@@ -31,6 +30,15 @@
 			<system>windows</system>
 			<branch>release_0.12_windows</branch>
 			<dev_commit>c1752cf3cd7f5c9e73d65ba15afab09974504781</dev_commit>
+		</Release>
+		<Release>
+			<number>0.13</number>
+			<title>Fix for plugins update</title>
+			<date>2020.12.25</date>
+			<time>14:29</time>
+			<system>windows</system>
+			<branch>release_0.13_windows</branch>
+			<dev_commit>12ab90b14cf3a44e88c302f843b5fc0a9bf331c1</dev_commit>
 		</Release>
 	</Releases>
 </Module>

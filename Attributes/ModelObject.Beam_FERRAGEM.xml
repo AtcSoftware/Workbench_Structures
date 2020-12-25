@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<objectData>
+	<OnPlanePosition>Middle</OnPlanePosition>
+	<OnPlaneDistance>0.0</OnPlaneDistance>
+	<RotationPosition>Top</RotationPosition>
+	<RotationAngle>0.0</RotationAngle>
+	<AtDepthPosition>Middle</AtDepthPosition>
+	<AtDepthDistance>0.0</AtDepthDistance>
+	<Reversed>No</Reversed>
+	<StartDx>0.0</StartDx>
+	<EndDx>0.0</EndDx>
+	<StartDy>0.0</StartDy>
+	<EndDy>0.0</EndDy>
+	<EndDz>0.0</EndDz>
+	<StartDz>0.0</StartDz>
+	<PartPrefix/>
+	<PartStartNumber>1</PartStartNumber>
+	<AssemblyPrefix/>
+	<AssemblyStartNumber>1</AssemblyStartNumber>
+	<Label>FERRAGEM</Label>
+	<ShapeColor>(1.0, 0.3, 0.0, 1.0)</ShapeColor>
+	<Finish/>
+	<Profile>FE10</Profile>
+	<RawMaterial>A572-GR.50</RawMaterial>
+</objectData>
