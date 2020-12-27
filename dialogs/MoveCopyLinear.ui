@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>232</width>
+    <height>145</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QCheckBox" name="checkBoxToggleDX">
+     <property name="text">
+      <string>dX</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string>OnPlaneDistance</string>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string>toggleModifyProperty</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QDoubleSpinBox" name="doubleSpinBoxDX">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="decimals">
+      <number>8</number>
+     </property>
+     <property name="minimum">
+      <double>-100000000000.000000000000000</double>
+     </property>
+     <property name="maximum">
+      <double>100000000000.000000000000000</double>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string>OnPlaneDistance</string>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QCheckBox" name="checkBoxToggleDY">
+     <property name="text">
+      <string>dY</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string>OnPlaneDistance</string>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string>toggleModifyProperty</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QDoubleSpinBox" name="doubleSpinBoxDY">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="decimals">
+      <number>8</number>
+     </property>
+     <property name="minimum">
+      <double>-100000000000.000000000000000</double>
+     </property>
+     <property name="maximum">
+      <double>100000000000.000000000000000</double>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string>OnPlaneDistance</string>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QCheckBox" name="checkBoxToggleDZ">
+     <property name="text">
+      <string>dZ</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string>OnPlaneDistance</string>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string>toggleModifyProperty</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1" colspan="2">
+    <widget class="QDoubleSpinBox" name="doubleSpinBoxDZ">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="decimals">
+      <number>8</number>
+     </property>
+     <property name="minimum">
+      <double>-100000000000.000000000000000</double>
+     </property>
+     <property name="maximum">
+      <double>100000000000.000000000000000</double>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string>OnPlaneDistance</string>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="3">
+    <widget class="QPushButton" name="pushButtonPick">
+     <property name="text">
+      <string>Pick ...</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="2">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Number of copies</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="2">
+    <widget class="QSpinBox" name="spinBoxNumber">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::NoContextMenu</enum>
+     </property>
+     <property name="suffix">
+      <string/>
+     </property>
+     <property name="minimum">
+      <number>1</number>
+     </property>
+     <property name="maximum">
+      <number>1000000000</number>
+     </property>
+     <property name="value">
+      <number>1</number>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string notr="true">PartStartNumber</string>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<objectData>
+	<RotationAngle>0.0</RotationAngle>
+	<Objects>(lp0
+(dp1
+S'position'
+p2
+I0
+sS'setup'
+p3
+(VU78X18X0.8
+p4
+F-42.5
+F0.0
+VNo
+p5
+F0.0
+F0.0
+tp6
+sS'objectname'
+p7
+S'Beam004'
+p8
+sa(dp9
+S'position'
+p10
+I1
+sS'setup'
+p11
+(VU78X18X0.8-INV
+p12
+F-42.5
+F0.0
+VNo
+p13
+F0.0
+F0.0
+tp14
+sS'objectname'
+p15
+S'Beam005'
+p16
+sa.</Objects>
+</objectData>

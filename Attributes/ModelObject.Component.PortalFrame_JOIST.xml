@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<objectData>
+	<EaveLeft>0.0</EaveLeft>
+	<Width>37087.0</Width>
+	<EaveEnd>0.0</EaveEnd>
+	<SlopeUnit>%</SlopeUnit>
+	<SpanQuantity>5</SpanQuantity>
+	<Slope>18.67</Slope>
+	<CeilingHeight>8000.0</CeilingHeight>
+	<EaveStart>0.0</EaveStart>
+	<EaveRight>0.0</EaveRight>
+	<SpanDistance>18300.0</SpanDistance>
+	<PurlinsObjectType>Joist</PurlinsObjectType>
+	<PurlinsDistance>4128.5</PurlinsDistance>
+	<PurlinsQuantity>5</PurlinsQuantity>
+	<PurlinsMode>Quantity</PurlinsMode>
+	<PurlinRidgeDistance>1175.0</PurlinRidgeDistance>
+	<PurlinEaveDistance>1175.0</PurlinEaveDistance>
+</objectData>
