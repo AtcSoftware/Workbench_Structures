@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<objectData>
+	<CreateRakeFascia>Yes</CreateRakeFascia>
+	<RakeFasciaProfile>TB216X0.65</RakeFasciaProfile>
+	<EaveFasciaVerticalDistance>125.65</EaveFasciaVerticalDistance>
+	<AlignEaveFasciaToField>Yes</AlignEaveFasciaToField>
+	<EaveFasciaProfile>TB130X0.65</EaveFasciaProfile>
+	<CreateEaveFascia>Yes</CreateEaveFascia>
+	<PurlinsStartDist>250.0</PurlinsStartDist>
+	<PurlinsSpacingDivMode>Exata</PurlinsSpacingDivMode>
+	<PurlinsEndDist>50.0</PurlinsEndDist>
+	<CreateFirstPurlin>No</CreateFirstPurlin>
+	<PurlinsVerticalDist>80.0</PurlinsVerticalDist>
+	<AlignPurlinsToField>Yes</AlignPurlinsToField>
+	<PurlinsDivMode>Blocos</PurlinsDivMode>
+	<PurlinsSpacing>400.0</PurlinsSpacing>
+	<PurlinsExtraLength>50.0</PurlinsExtraLength>
+	<PurlinsProfile>CE30X20X9X0.65</PurlinsProfile>
+	<PurlinsMaxSpan>1200.0</PurlinsMaxSpan>
+	<RaftersProfile>UEP80X39X41X10X0.80</RaftersProfile>
+	<RaftersMaxSpan>1600.0</RaftersMaxSpan>
+	<RaftersStartDist>350.0</RaftersStartDist>
+	<RaftersEndDist>100.0</RaftersEndDist>
+	<RaftersMaxInterEndDist>500.0</RaftersMaxInterEndDist>
+	<CreateStartRafter>No</CreateStartRafter>
+	<StartRafterDist>0.0</StartRafterDist>
+	<CreateEndRafter>No</CreateEndRafter>
+	<EndRafterDist>0.0</EndRafterDist>
+	<VerticalsProfile>UEP80X39X41X10X0.80</VerticalsProfile>
+	<VerticalsMaxSpan>500.0</VerticalsMaxSpan>
+	<AlignVerticalsToPurlins>No</AlignVerticalsToPurlins>
+	<TilesType>Ceramica</TilesType>
+	<CreateTiles>No</CreateTiles>
+	<VerticalsProfileType>UEP80-ABERTO</VerticalsProfileType>
+	<RaftersProfileType>UEP80-ABERTO</RaftersProfileType>
+	<PurlinsProfileType>CE30X20</PurlinsProfileType>
+</objectData>

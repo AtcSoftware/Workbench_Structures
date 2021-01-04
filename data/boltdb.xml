@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boltdb>
+	<boltassembly name="A325" type="A325" listNames="diameter">
+		<object>
+			<type>screw</type>
+			<position>before</position>
+			<standard>A325</standard>
+			<diameter></diameter>
+			<diameterprefix></diameterprefix>
+			<lengthmode>calculated</lengthmode>
+			<plane>assembly</plane>
+			<create>True</create>
+		</object>
+		<object>
+			<type>washer</type>
+			<position>after</position>
+			<standard>F436</standard>
+			<diameter></diameter>
+			<diameterprefix></diameterprefix>
+			<plane>inverted</plane>
+			<create>True</create>
+		</object>
+		<object>
+			<type>nut</type>
+			<position>after</position>
+			<standard>A563H</standard>
+			<diameter></diameter>
+			<diameterprefix></diameterprefix>
+			<plane>inverted</plane>
+			<create>True</create>
+		</object>
+	</boltassembly>
+	<boltassembly name="Self drilling" type="SelfDrilling" listNames="diameter_length">
+		<object>
+			<type>screw</type>
+			<position>before</position>
+			<standard>SelfDrilling</standard>
+			<diameter></diameter>
+			<diameterprefix></diameterprefix>
+			<lengthmode>fixed</lengthmode>
+			<plane>assembly</plane>
+			<create>True</create>
+		</object>
+	</boltassembly>
+	<boltassembly name="Wall plug S + Screw" type="WallPlugS" listNames="diameter">
+		<object>
+			<type>screw</type>
+			<position>before</position>
+			<standard>ISO4014</standard>
+			<diameter>assembly</diameter>
+			<diameterprefix>M</diameterprefix>
+			<lengthmode>fixed</lengthmode>
+			<plane>assembly</plane>
+			<create>True</create>
+		</object>
+		<object>
+			<type>plug</type>
+			<position>after</position>
+			<standard>WallPlugS</standard>
+			<diameter></diameter>
+			<diameterprefix></diameterprefix>
+			<plane>assembly</plane>
+			<create>True</create>
+		</object>
+	</boltassembly>
+</boltdb>

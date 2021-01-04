@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>282</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Object Drawing Properties</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_6">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string/>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string/>
+     </property>
+     <widget class="QWidget" name="tabAttributes">
+      <attribute name="title">
+       <string>Attributes</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="4" column="0" colspan="2">
+        <widget class="QCheckBox" name="checkBoxToggleDrawingNumber">
+         <property name="text">
+          <string>Drawing Number</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingNumber</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleDrawingTitle1">
+         <property name="text">
+          <string>Title 1</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingTitle1</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" colspan="2">
+        <widget class="QLineEdit" name="lineEditDrawingTitle1">
+         <property name="text">
+          <string notr="true"/>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingTitle1</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <property name="objectPropertyValue" stdset="0">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleDrawingTitle3">
+         <property name="text">
+          <string>Title 3</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingTitle3</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" colspan="2">
+        <widget class="QLineEdit" name="lineEditDrawingName">
+         <property name="text">
+          <string notr="true"/>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingName</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <property name="objectPropertyValue" stdset="0">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="3">
+        <widget class="QGroupBox" name="groupBox_4">
+         <property name="title">
+          <string>Dimensões</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleDrawingLength">
+            <property name="text">
+             <string>Length</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DrawingLength</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxDrawingLength">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>297.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DrawingLength</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleDrawingHeight">
+            <property name="text">
+             <string>Height</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DrawingHeight</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxDrawingHeight">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>210.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DrawingHeight</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="1" colspan="2">
+        <widget class="QLineEdit" name="lineEditDrawingTitle2">
+         <property name="text">
+          <string notr="true"/>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingTitle2</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <property name="objectPropertyValue" stdset="0">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="lineEditDrawingNumber">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string notr="true">1</string>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingNumber</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <property name="objectPropertyValue" stdset="0">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleDrawingName">
+         <property name="text">
+          <string>Name</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingName</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleDrawingTitle2">
+         <property name="text">
+          <string>Title 2</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingTitle2</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1" colspan="2">
+        <widget class="QLineEdit" name="lineEditDrawingTitle3">
+         <property name="text">
+          <string notr="true"/>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">DrawingTitle3</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <property name="objectPropertyValue" stdset="0">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::MinimumExpanding</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>200</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tabViews">
+      <attribute name="title">
+       <string>Views</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Projection</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0" colspan="2">
+           <widget class="QCheckBox" name="checkBoxToggleProjectionType">
+            <property name="text">
+             <string>Projection Type</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">ProjectionType</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QComboBox" name="comboBoxOnProjectionType">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentText">
+             <string>First Angle</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">ProjectionType</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>First Angle</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Third Angle</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleScale">
+            <property name="text">
+             <string>Scale</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">Scale</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QLineEdit" name="lineEditScale">
+            <property name="inputMethodHints">
+             <set>Qt::ImhNone</set>
+            </property>
+            <property name="inputMask">
+             <string>99999:99999</string>
+            </property>
+            <property name="text">
+             <string notr="true">1:10</string>
+            </property>
+            <property name="maxLength">
+             <number>11</number>
+            </property>
+            <property name="frame">
+             <bool>true</bool>
+            </property>
+            <property name="cursorPosition">
+             <number>11</number>
+            </property>
+            <property name="clearButtonEnabled">
+             <bool>false</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">Scale</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <property name="objectPropertyValue" stdset="0">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBox_5">
+         <property name="title">
+          <string>Rotation</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleRotateAroundX">
+            <property name="text">
+             <string>Around X</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RotateAroundX</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxRotateAroundX">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RotateAroundX</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleRotateAroundY">
+            <property name="text">
+             <string>Around Y</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RotateAroundY</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxRotateAroundY">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RotateAroundY</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleRotateAroundZ">
+            <property name="text">
+             <string>Around Z</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RotateAroundZ</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxRotateAroundZ">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RotateAroundZ</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Base Views</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleFrontView">
+            <property name="text">
+             <string>Front View</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">FrontView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBoxFrontView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentText">
+             <string>Yes</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">FrontView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleBackView">
+            <property name="text">
+             <string>Back View</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">BackView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="comboBoxBackView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentText">
+             <string>Yes</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">BackView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleTopView">
+            <property name="text">
+             <string>Top View</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">TopView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QComboBox" name="comboBoxTopView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentText">
+             <string>Yes</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">TopView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleBottomView">
+            <property name="text">
+             <string>Bottom View</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">BottomView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QComboBox" name="comboBoxBottomView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentText">
+             <string>Yes</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">BottomView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleLeftView">
+            <property name="text">
+             <string>Left View</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">LeftView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QComboBox" name="comboBoxLeftView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentText">
+             <string>Yes</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">LeftView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleRightView">
+            <property name="text">
+             <string>Right View</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RightView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QComboBox" name="comboBoxRightView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentText">
+             <string>Yes</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RightView</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleSectionViews">
+            <property name="text">
+             <string>Section Views</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">SectionViews</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QComboBox" name="comboBoxSectionViews">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentText">
+             <string>Yes</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">SectionViews</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="7" column="0">
+           <widget class="QCheckBox" name="checkBoxToggle3DView">
+            <property name="text">
+             <string>3D View</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">View3D</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="7" column="1">
+           <widget class="QComboBox" name="comboBox3DView">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="currentText">
+             <string>Yes</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">View3D</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

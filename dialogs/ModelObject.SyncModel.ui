@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewsListForm</class>
+ <widget class="QDialog" name="ViewsListForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>448</width>
+    <height>218</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Sync Model</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QCheckBox" name="checkBoxToggleModelFile">
+     <property name="text">
+      <string>File</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string notr="true">ModelFile</string>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string notr="true">toggleModifyProperty</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="lineEditModelFile">
+     <property name="minimumSize">
+      <size>
+       <width>300</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="text">
+      <string notr="true"/>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string notr="true">ModelFile</string>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string notr="true"/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QPushButton" name="pushButtonOpenFile">
+     <property name="text">
+      <string>Open</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Objects to sync</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleSyncBeam">
+        <property name="text">
+         <string>Beam</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true">toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleSyncBeam_5">
+        <property name="text">
+         <string>Grid</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true">toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleSyncBeam_4">
+        <property name="text">
+         <string>Cut and fit</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true">toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="comboBoxSyncBeam_4">
+        <property name="currentText">
+         <string>Yes</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true"/>
+        </property>
+        <item>
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboBoxSyncBeam_3">
+        <property name="currentText">
+         <string>Yes</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true"/>
+        </property>
+        <item>
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="comboBoxSyncBeam">
+        <property name="currentText">
+         <string>Yes</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true"/>
+        </property>
+        <item>
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleSyncBeam_2">
+        <property name="text">
+         <string>Contour plate</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true">toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="comboBoxSyncBeam_2">
+        <property name="currentText">
+         <string>Yes</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true"/>
+        </property>
+        <item>
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="comboBoxSyncBeam_5">
+        <property name="currentText">
+         <string>No</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true"/>
+        </property>
+        <item>
+         <property name="text">
+          <string>No</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Yes</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleSyncBeam_3">
+        <property name="text">
+         <string>Bolt</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">SyncBeam</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true">toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

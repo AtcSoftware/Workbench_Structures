@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<objectData>
+	<Objects>(lp0
+(dp1
+S'position'
+p2
+I0
+sS'setup'
+p3
+(S'standard'
+p4
+F114.5
+I0
+tp5
+sS'objectname'
+p6
+S''
+p7
+sa(dp8
+g2
+I1
+sg3
+(g4
+F-114.5
+I0
+tp9
+sg6
+g7
+sa.</Objects>
+</objectData>
