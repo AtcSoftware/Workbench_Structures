@@ -1,6 +1,14 @@
 __pycache__/
 *.pyc
 /data/settings.xml
+*branch*
+ifcopenshell
 Plugins/*/
+pwd*
+dialogs.ts
+code.ts
+*/*.FCBak
+profDb_merged.xml
+sketch_variables_db_merged.xml
 updates.xml
 sync.ffs_db

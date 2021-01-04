@@ -3,7 +3,7 @@
 	<Type>Workbench</Type>
 	<Url>https://github.com/AtcSoftware/Workbench_Structures</Url>
 	<Last_Release>
-		<windows>0.15</windows>
+		<windows>0.16</windows>
 	</Last_Release>
 	<Releases>
 		<Release>
@@ -57,6 +57,16 @@
 			<system>windows</system>
 			<branch>release_0.15_windows</branch>
 			<dev_commit>428facac06d35cdc2a13b1553fd85d67b3e940eb</dev_commit>
+		</Release>
+		<Release>
+			<number>0.16</number>
+			<title>Fix first start setup</title>
+			<date>2021.01.04</date>
+			<time>14:18</time>
+			<system>windows</system>
+			<branch>release_0.16_windows</branch>
+			<dev_commit>fb26e38fc6cfa96385d66f60d0271f8c2a680d79</dev_commit>
+			<comments>Profiles: implement plugins profiles database</comments>
 		</Release>
 	</Releases>
 </Module>
