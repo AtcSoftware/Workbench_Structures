@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="66"
+   height="66"
+   viewBox="0 0 66 66"
+   version="1.1"
+   id="svg66"
+   sodipodi:docname="ic.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata72">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs70">
+    <linearGradient
+       id="linearGradient3770">
+      <stop
+         style="stop-color:#06989a;stop-opacity:1"
+         offset="0"
+         id="stop3772" />
+      <stop
+         style="stop-color:#34e0e2;stop-opacity:1"
+         offset="1"
+         id="stop3774" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3770"
+       id="linearGradient1022"
+       x1="39.519993"
+       y1="18"
+       x2="16.438484"
+       y2="50.5"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview68"
+     showgrid="true"
+     units="px"
+     inkscape:zoom="5.4110123"
+     inkscape:cx="-5.6340601"
+     inkscape:cy="29.604801"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg66">
+    <inkscape:grid
+       type="xygrid"
+       id="grid879"
+       originx="33"
+       originy="33" />
+  </sodipodi:namedview>
+  <g
+     id="Edge"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#34e0e2;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge_nwe0000"
+       d="M 110.42228,119.31666 A 6,6 0 1 1 114.011,115.728"
+       style="fill:none;fill-rule:evenodd;stroke:#34e0e2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title3">b'Edge'</title>
+  </g>
+  <g
+     id="Edge001"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge001_nwe0000"
+       d="m 110.42228,119.31666 12.83512,12.83511"
+       style="fill:none;fill-rule:evenodd;stroke:#34e0e2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title7">b'Edge001'</title>
+  </g>
+  <g
+     id="Edge002"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge002_nwe0000"
+       d="m 123.2574,132.15177 20,-47.999996"
+       style="fill:none;fill-rule:evenodd;stroke:#34e0e2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title11">b'Edge002'</title>
+  </g>
+  <g
+     id="Edge003"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge003_nwe0000"
+       d="m 143.2574,84.151774 7.47598,7.475981"
+       style="fill:none;fill-rule:evenodd;stroke:#34e0e2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title15">b'Edge003'</title>
+  </g>
+  <g
+     id="Edge004"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge004_nwe0000"
+       d="M 154.32235,88.038784 A 6,6 0 1 1 150.733,91.6278"
+       style="fill:none;fill-rule:evenodd;stroke:#34e0e2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title19">b'Edge004'</title>
+  </g>
+  <g
+     id="Edge005"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge005_nwe0000"
+       d="m 141.48724,75.203671 12.83511,12.835113"
+       style="fill:none;fill-rule:evenodd;stroke:#34e0e2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title23">b'Edge005'</title>
+  </g>
+  <g
+     id="Edge006"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#34e0e2;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge006_nwe0000"
+       d="m 121.48724,123.20367 20,-47.999999"
+       style="fill:none;fill-rule:evenodd;stroke:#34e0e2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title27">b'Edge006'</title>
+  </g>
+  <g
+     id="Edge007"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge007_nwe0000"
+       d="m 114.01126,115.72769 7.47598,7.47598"
+       style="fill:none;fill-rule:evenodd;stroke:#34e0e2;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title31">b'Edge007'</title>
+  </g>
+  <g
+     id="Edge008"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge008_nwe0000"
+       d="M 109.8224,121.5452 A 8,8 0 1 1 116.24,115.128"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title35">b'Edge008'</title>
+  </g>
+  <g
+     id="Edge009"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge009_nwe0000"
+       d="m 109.8224,121.5452 14.13252,14.13252"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title39">b'Edge009'</title>
+  </g>
+  <g
+     id="Edge010"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge010_nwe0000"
+       d="m 123.95492,135.67772 20,-47.999997"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title43">b'Edge010'</title>
+  </g>
+  <g
+     id="Edge011"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge011_nwe0000"
+       d="m 143.95492,87.677723 4.54992,4.549917"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title47">b'Edge011'</title>
+  </g>
+  <g
+     id="Edge012"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge012_nwe0000"
+       d="M 154.92223,85.810242 A 8,8 0 1 1 148.505,92.2276"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title51">b'Edge012'</title>
+  </g>
+  <g
+     id="Edge013"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge013_nwe0000"
+       d="m 140.78971,71.677723 14.13252,14.132519"
+       style="fill:none;fill-rule:evenodd;stroke:#042a2a;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title55">b'Edge013'</title>
+  </g>
+  <g
+     id="Edge014"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge014_nwe0000"
+       d="m 120.78971,119.67772 20,-47.999997"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:round;stroke-linecap:round;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title59">b'Edge014'</title>
+  </g>
+  <g
+     id="Edge015"
+     transform="matrix(1,0,0,-1,-99.372524,136.67772)"
+     style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-linejoin:miter;stroke-linecap:round;paint-order:markers fill stroke">
+    <path
+       id="Edge015_nwe0000"
+       d="m 116.2398,115.12781 4.54991,4.54991"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stroke-linejoin:miter;stroke-linecap:round;paint-order:markers fill stroke"
+       inkscape:connector-curvature="0" />
+    <title
+       id="title63">b'Edge015'</title>
+  </g>
+  <path
+     style="fill:url(#linearGradient1022);fill-opacity:1;stroke:#34e0e2;stroke-width:0.26135841;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.88976383;stroke-opacity:1;paint-order:markers fill stroke"
+     d="M 42.301369,59.218622 C 35.625839,43.052723 23.008645,12.954295 22.817939,12.74073 22.639315,12.540695 22.40759,12.446702 22.093064,12.446702 c -0.431782,0 -0.724047,0.261091 -4.425039,3.953046 -2.179498,2.174175 -3.99564,4.082435 -4.035873,4.240578 -0.04023,0.158141 0.02632,0.684164 0.147899,1.168937 1.020222,4.068029 -3.267713,7.487089 -7.0109073,5.590269 -3.0357961,-1.538354 -3.6300694,-5.635113 -1.1534667,-7.951685 1.2923856,-1.208875 3.1153925,-1.671608 4.732968,-1.201366 0.401246,0.116645 0.83762,0.174872 0.96972,0.129391 0.1321,-0.04548 2.926879,-2.76148 6.210621,-6.035556 l 5.970439,-5.9528644 0.169454,0.3719126 c 0.0932,0.204552 4.495927,10.7562648 9.783836,23.4482518 8.774429,21.060294 9.64703,23.092142 9.988095,23.257254 0.252686,0.122327 0.474248,0.143487 0.684143,0.06534 0.170737,-0.06357 2.105117,-1.90915 4.298625,-4.101294 4.486184,-4.483394 4.086418,-3.872501 3.716367,-5.679073 -0.409405,-1.998694 0.770691,-4.250291 2.724818,-5.198892 0.783759,-0.380465 0.977809,-0.419411 2.104807,-0.422444 1.089678,-0.0029 1.337311,0.04137 2.025528,0.36236 1.029101,0.479983 2.039881,1.486456 2.506257,2.495574 0.323464,0.699895 0.368395,0.950013 0.366324,2.039194 -0.002,1.064808 -0.05149,1.346976 -0.34766,1.983077 -0.93401,2.006043 -3.273823,3.272789 -5.269184,2.852669 -0.359368,-0.07566 -0.879845,-0.1741 -1.156616,-0.218745 l -0.503218,-0.08118 -6.052701,6.051652 -6.052702,6.05165 z"
+     id="path1014"
+     inkscape:connector-curvature="0" />
+</svg>

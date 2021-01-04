@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<objectData>
+	<PartPrefix/>
+	<PartStartNumber>1</PartStartNumber>
+	<AssemblyPrefix/>
+	<AssemblyStartNumber>1</AssemblyStartNumber>
+	<InternalName>PLATE</InternalName>
+	<Profile>CH10</Profile>
+	<Material>A36</Material>
+	<Finish/>
+	<ShapeColor>(0.8, 0.8, 0.8, 0.8)</ShapeColor>
+	<AtDepthPosition>Front</AtDepthPosition>
+	<AtDepthDistance>0.0</AtDepthDistance>
+</objectData>

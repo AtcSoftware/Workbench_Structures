@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<objectData>
+	<RotationAngle>0.0</RotationAngle>
+	<Objects>(lp0
+(dp1
+S'position'
+p2
+I0
+sS'setup'
+p3
+(VVIGA-CONCRETO
+p4
+F0.0
+F0.0
+VNo
+p5
+F0.0
+F0.0
+tp6
+sS'objectname'
+p7
+S'Beam259'
+p8
+sa.</Objects>
+</objectData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<objectData>
+	<VerticalDist>0.0</VerticalDist>
+	<Slope>35.0</Slope>
+	<RaisedHeel>No</RaisedHeel>
+	<Label>Roof</Label>
+	<ShapeColor>(0.7, 1.0, 1.0, 1.0)</ShapeColor>
+	<Transparency>90.0</Transparency>
+</objectData>

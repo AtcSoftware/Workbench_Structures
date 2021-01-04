@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<separators>
+	<separator>x</separator>
+	<separator>X</separator>
+	<separator>*</separator>
+	<separator>-</separator>
+	<separator>@</separator>
+	<separator>#</separator>
+	<separator>$</separator>
+	<separator>%</separator>
+</separators>

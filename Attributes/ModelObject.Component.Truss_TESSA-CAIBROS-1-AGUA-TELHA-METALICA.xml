@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<objectData>
+	<DiagonalsExtraStartLength>0.0</DiagonalsExtraStartLength>
+	<DiagonalsExtraEndLength>0.0</DiagonalsExtraEndLength>
+	<DiagonalsDistZ>0.0</DiagonalsDistZ>
+	<DiagonalsDistY>0.0</DiagonalsDistY>
+	<DiagonalsDistX>0.0</DiagonalsDistX>
+	<CreateDiagonals>Yes</CreateDiagonals>
+	<DiagonalsObjectType>Beam</DiagonalsObjectType>
+	<DiagonalsAttribute>TESSA-CTV-L30X30X0.80</DiagonalsAttribute>
+	<CreateEndDiagonal>No</CreateEndDiagonal>
+	<CreateStartDiagonal>No</CreateStartDiagonal>
+	<CreateVerticals>Yes</CreateVerticals>
+	<CreateEndVertical>No</CreateEndVertical>
+	<CreateCentralVertical>No</CreateCentralVertical>
+	<CreateStartVertical>No</CreateStartVertical>
+	<VerticalsObjectType>Beam</VerticalsObjectType>
+	<VerticalsAttribute>TESSA-PONTALETE-TP80X45X0.80</VerticalsAttribute>
+	<CreateVerticalBottomConnection>Yes</CreateVerticalBottomConnection>
+	<VerticalTopConnectionName>TESSA-CAPA</VerticalTopConnectionName>
+	<VerticalBottomConnectionType>Detail</VerticalBottomConnectionType>
+	<CreateVerticalTopConnection>No</CreateVerticalTopConnection>
+	<VerticalBottomConnectionName>TESSA-SP-AR</VerticalBottomConnectionName>
+	<VerticalTopConnectionType>Connection</VerticalTopConnectionType>
+	<VerticalsDistanceList>1*500 1*1000 1*2000 1*500</VerticalsDistanceList>
+	<VerticalsExtraTopLength>-11.0</VerticalsExtraTopLength>
+	<VerticalsExtraBottomLength>-1.25</VerticalsExtraBottomLength>
+	<FieldsNumber>1</FieldsNumber>
+	<StartHeel>300.0</StartHeel>
+	<RidgeHeight>1500.0</RidgeHeight>
+	<RidgeDistance>2250.0</RidgeDistance>
+	<EndHeel>0.0</EndHeel>
+	<CeilingHeight>0.0</CeilingHeight>
+	<TopRightChordModelObjectType>Beam</TopRightChordModelObjectType>
+	<BottomLeftChordModelObjectType>Beam</BottomLeftChordModelObjectType>
+	<BottomRightChordAttribute>standard</BottomRightChordAttribute>
+	<TopLeftChordAttribute>standard</TopLeftChordAttribute>
+	<CreateBottomLeftChord>No</CreateBottomLeftChord>
+	<CreateTopRightChord>No</CreateTopRightChord>
+	<BottomLeftChordAttribute>standard</BottomLeftChordAttribute>
+	<CreateTopLeftChord>No</CreateTopLeftChord>
+	<TopRightChordAttribute>standard</TopRightChordAttribute>
+	<CreateBottomRightChord>No</CreateBottomRightChord>
+	<BottomRightChordModelObjectType>Beam</BottomRightChordModelObjectType>
+	<TopLeftChordModelObjectType>Beam</TopLeftChordModelObjectType>
+	<TopLeftChordExtraStartLength>0.0</TopLeftChordExtraStartLength>
+	<TopRightChordExtraStartLength>0.0</TopRightChordExtraStartLength>
+</objectData>
