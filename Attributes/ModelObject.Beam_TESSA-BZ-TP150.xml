@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<objectData>
+	<OnPlanePosition>Middle</OnPlanePosition>
+	<OnPlaneDistance>0.0</OnPlaneDistance>
+	<RotationPosition>Top</RotationPosition>
+	<RotationAngle>0.0</RotationAngle>
+	<AtDepthPosition>Behind</AtDepthPosition>
+	<AtDepthDistance>0.0</AtDepthDistance>
+	<Reversed>No</Reversed>
+	<StartDx>0.0</StartDx>
+	<EndDx>0.0</EndDx>
+	<StartDy>0.0</StartDy>
+	<EndDy>0.0</EndDy>
+	<EndDz>0.0</EndDz>
+	<StartDz>0.0</StartDz>
+	<PartPrefix>BZ</PartPrefix>
+	<PartStartNumber>1</PartStartNumber>
+	<AssemblyPrefix>BZ</AssemblyPrefix>
+	<AssemblyStartNumber>1</AssemblyStartNumber>
+	<Label>BZ-TP150</Label>
+	<ShapeColor>(0.0, 1.0, 0.5, 1.0)</ShapeColor>
+	<Finish/>
+	<Profile>TP150X85X1.25</Profile>
+	<RawMaterial>Z275</RawMaterial>
+</objectData>

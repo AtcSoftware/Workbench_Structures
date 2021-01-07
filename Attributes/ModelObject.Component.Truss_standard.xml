@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<objectData>
+	<VerticalsObjectType>None</VerticalsObjectType>
+	<VerticalsObjectType>Beam</VerticalsObjectType>
+	<VerticalsAttribute>None</VerticalsAttribute>
+	<VerticalsAttribute>U180X50X4.75-MIDDLE</VerticalsAttribute>
+	<VerticalsExtraTopLength>60.0</VerticalsExtraTopLength>
+	<VerticalsExtraBottomLength>-1.25</VerticalsExtraBottomLength>
+	<FieldsNumber>2</FieldsNumber>
+	<StartHeel>500.0</StartHeel>
+	<RidgeHeight>1500.0</RidgeHeight>
+	<RidgeDistance>0.0</RidgeDistance>
+	<EndHeel>500.0</EndHeel>
+	<CeilingHeight>0.0</CeilingHeight>
+	<TopRightChordModelObjectType>Beam</TopRightChordModelObjectType>
+	<BottomLeftChordModelObjectType>Beam</BottomLeftChordModelObjectType>
+	<BottomRightChordAttribute>U200X100X4.75-UP</BottomRightChordAttribute>
+	<TopLeftChordAttribute>U200X100X4.75-DOWN</TopLeftChordAttribute>
+	<CreateBottomLeftChord>Yes</CreateBottomLeftChord>
+	<CreateTopRightChord>Yes</CreateTopRightChord>
+	<BottomLeftChordAttribute>U200X100X4.75-UP</BottomLeftChordAttribute>
+	<CreateTopLeftChord>Yes</CreateTopLeftChord>
+	<TopRightChordAttribute>U200X100X4.75-DOWN</TopRightChordAttribute>
+	<CreateBottomRightChord>Yes</CreateBottomRightChord>
+	<BottomRightChordModelObjectType>Beam</BottomRightChordModelObjectType>
+	<TopLeftChordModelObjectType>Beam</TopLeftChordModelObjectType>
+	<TopLeftChordExtraStartLength>0.0</TopLeftChordExtraStartLength>
+	<TopRightChordExtraStartLength>0.0</TopRightChordExtraStartLength>
+</objectData>

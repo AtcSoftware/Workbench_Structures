@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<objectData>
+	<RotationAngle>0.0</RotationAngle>
+	<Objects>(lp0
+(dp1
+S'position'
+p2
+I0
+sS'setup'
+p3
+(VTESSA-BIG-UE200X80X28X1.95
+p4
+F-1.5
+F0.0
+VNo
+p5
+F0.0
+F0.0
+tp6
+sS'objectname'
+p7
+S'Beam'
+p8
+sa(dp9
+g2
+I1
+sg3
+(VTESSA-BIG-UE200X80X28X1.95
+p10
+F-1.5
+F0.0
+VYes
+p11
+F0.0
+F0.0
+tp12
+sg7
+S'Beam001'
+p13
+sa.</Objects>
+</objectData>
