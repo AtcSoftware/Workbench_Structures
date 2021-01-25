@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<objectData>
+	<EaveLeft>0.0</EaveLeft>
+	<Width>15000.0</Width>
+	<EaveEnd>0.0</EaveEnd>
+	<SlopeUnit>%</SlopeUnit>
+	<SpanQuantity>10</SpanQuantity>
+	<Slope>18.67</Slope>
+	<CeilingHeight>6000.0</CeilingHeight>
+	<EaveStart>0.0</EaveStart>
+	<EaveRight>0.0</EaveRight>
+	<SpanDistance>5000.0</SpanDistance>
+	<PurlinsObjectType>Customizado</PurlinsObjectType>
+	<PurlinsDistance>1600.0</PurlinsDistance>
+	<PurlinsQuantity>8</PurlinsQuantity>
+	<PurlinsMode>MaxDistance</PurlinsMode>
+	<PurlinRidgeDistance>100.0</PurlinRidgeDistance>
+	<PurlinEaveDistance>45.0</PurlinEaveDistance>
+</objectData>

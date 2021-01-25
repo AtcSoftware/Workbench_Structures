@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>240</width>
+    <height>66</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Construction Line</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleStartExtraLength">
+        <property name="text">
+         <string>Start extension</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">StartExtraLength</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true">toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QDoubleSpinBox" name="doubleSpinBoxStartExtraLength">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>1</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="decimals">
+         <number>2</number>
+        </property>
+        <property name="minimum">
+         <double>-100000000000.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>100000000000.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>500.000000000000000</double>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">StartExtraLength</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true"/>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBoxToggleEndExtraLength">
+        <property name="text">
+         <string>End extension</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">EndExtraLength</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true">toggleModifyProperty</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QDoubleSpinBox" name="doubleSpinBoxEndExtraLength">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>1</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="decimals">
+         <number>2</number>
+        </property>
+        <property name="minimum">
+         <double>-100000000000.000000000000000</double>
+        </property>
+        <property name="maximum">
+         <double>100000000000.000000000000000</double>
+        </property>
+        <property name="value">
+         <double>500.000000000000000</double>
+        </property>
+        <property name="objectProperty" stdset="0">
+         <string notr="true">EndExtraLength</string>
+        </property>
+        <property name="widgetAction" stdset="0">
+         <string notr="true"/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

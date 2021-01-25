@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<objectData>
+	<LabelText1/>
+	<LabelText2/>
+	<LabelText3/>
+	<LabelText4/>
+	<LabelText5/>
+	<ViewScale>1:50</ViewScale>
+	<XMin>0.0</XMin>
+	<XMax>0.0</XMax>
+	<YMin>0.0</YMin>
+	<YMax>0.0</YMax>
+	<ZMin>0.0</ZMin>
+	<ZMax>0.0</ZMax>
+	<FixedPlace>No</FixedPlace>
+</objectData>

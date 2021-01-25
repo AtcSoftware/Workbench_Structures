@@ -3,7 +3,7 @@
 	<Type>Workbench</Type>
 	<Url>https://github.com/AtcSoftware/Workbench_Structures</Url>
 	<Last_Release>
-		<windows>0.17</windows>
+		<windows>0.18</windows>
 	</Last_Release>
 	<Releases>
 		<Release>
@@ -77,6 +77,16 @@
 			<branch>release_0.17_windows</branch>
 			<dev_commit>84c52404cc1fbaf8e36e3b2c78a838295e6433e1</dev_commit>
 			<comments>Fixes</comments>
+		</Release>
+		<Release>
+			<number>0.18</number>
+			<title>Fixes</title>
+			<date>2021.01.25</date>
+			<time>00:04</time>
+			<system>windows</system>
+			<branch>release_0.18_windows</branch>
+			<dev_commit>60c3a92c3232c64242d9c67f679ff504856daf4c</dev_commit>
+			<comments>Fixes and upgrades</comments>
 		</Release>
 	</Releases>
 </Module>

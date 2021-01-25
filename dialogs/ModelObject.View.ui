@@ -1,0 +1,877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>306</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>View Properties</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <property name="objectProperty" stdset="0">
+      <string/>
+     </property>
+     <property name="widgetAction" stdset="0">
+      <string/>
+     </property>
+     <widget class="QWidget" name="tabAttributes">
+      <attribute name="title">
+       <string>Attributes</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="0">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>View profundity</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleDepthInfinite">
+            <property name="text">
+             <string>Infinite</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DepthInfinite</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QComboBox" name="comboBoxDepthInfinite">
+            <property name="currentText">
+             <string>Yes</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DepthInfinite</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleDepthUp">
+            <property name="text">
+             <string>Depth up</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DepthUp</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxDepthUp">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>300.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DepthUp</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleDepthDown">
+            <property name="text">
+             <string>Depth down</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DepthDown</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxDepthDown">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>1</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="value">
+             <double>300.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">DepthDown</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>View</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_3">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleLabel">
+            <property name="text">
+             <string>Label</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">Label</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEditLabel">
+            <property name="text">
+             <string notr="true">3D View</string>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">Label</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleAngle">
+            <property name="text">
+             <string>Angle</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">Angle</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QComboBox" name="comboBoxAngle">
+            <property name="currentText">
+             <string>3D</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">Angle</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>3D</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Plane</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_Visibility">
+      <attribute name="title">
+       <string>Visibility of types</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowAllObjects">
+         <property name="text">
+          <string>All</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowAllObjects</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="comboBoxShowAllObjects">
+         <property name="currentText">
+          <string>No</string>
+         </property>
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowAllObjects</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="0" rowspan="2" colspan="2">
+        <widget class="Line" name="line">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1" rowspan="2">
+        <widget class="QComboBox" name="comboBoxShowObjects">
+         <property name="currentText">
+          <string>Yes</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowObjects</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowObjects">
+         <property name="text">
+          <string>3D Objects</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowObjects</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowDrafts">
+         <property name="text">
+          <string>Drafts</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowDrafts</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QComboBox" name="comboBoxShowDrafts">
+         <property name="currentText">
+          <string>Yes</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowDrafts</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="Line" name="line_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2" rowspan="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>55</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="6" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowBolts">
+         <property name="text">
+          <string>Bolts</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowBolts</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QComboBox" name="comboBoxShowBolts">
+         <property name="currentText">
+          <string>Yes</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowBolts</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowHoles">
+         <property name="text">
+          <string>Holes</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowHoles</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QComboBox" name="comboBoxShowHoles">
+         <property name="currentText">
+          <string>Yes</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowHoles</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowCuts">
+         <property name="text">
+          <string>Cuts</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowCuts</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QComboBox" name="comboBoxShowCuts">
+         <property name="currentText">
+          <string>No</string>
+         </property>
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowCuts</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowWelds">
+         <property name="text">
+          <string>Welds</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowWelds</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QComboBox" name="comboBoxShowWelds">
+         <property name="currentText">
+          <string>No</string>
+         </property>
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowWelds</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="10" column="0" colspan="2">
+        <widget class="Line" name="line_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowGrids">
+         <property name="text">
+          <string>Grids</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowGrids</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QComboBox" name="comboBoxShowGrids">
+         <property name="currentText">
+          <string>Yes</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowGrids</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="12" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowReferenceObjects">
+         <property name="text">
+          <string>Reference objects</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowReferenceObjects</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="1">
+        <widget class="QComboBox" name="comboBoxShowReferenceObjects">
+         <property name="currentText">
+          <string>Yes</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowReferenceObjects</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="13" column="0" colspan="2">
+        <widget class="Line" name="line_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowConstructionPoints">
+         <property name="text">
+          <string>Construction points</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowConstructionPoints</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="14" column="1">
+        <widget class="QComboBox" name="comboBoxShowConstructionPoints">
+         <property name="currentText">
+          <string>Yes</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowConstructionPoints</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="15" column="0">
+        <widget class="QCheckBox" name="checkBoxToggleShowConstructionLines">
+         <property name="text">
+          <string>Construction lines</string>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowConstructionLines</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true">toggleModifyProperty</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="1">
+        <widget class="QComboBox" name="comboBoxShowConstructionLines">
+         <property name="currentText">
+          <string>Yes</string>
+         </property>
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <property name="objectProperty" stdset="0">
+          <string notr="true">ShowConstructionLines</string>
+         </property>
+         <property name="widgetAction" stdset="0">
+          <string notr="true"/>
+         </property>
+         <item>
+          <property name="text">
+           <string>Yes</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>No</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_Filter">
+      <attribute name="title">
+       <string>Filter</string>
+      </attribute>
+      <widget class="QCheckBox" name="checkBoxToggleObjectsFilter">
+       <property name="geometry">
+        <rect>
+         <x>19</x>
+         <y>21</y>
+         <width>85</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Objects filter</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+       <property name="objectProperty" stdset="0">
+        <string notr="true">ObjectsFilter</string>
+       </property>
+       <property name="widgetAction" stdset="0">
+        <string notr="true">toggleModifyProperty</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBoxObjectsFilter">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>20</y>
+         <width>117</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="currentText">
+        <string notr="true"/>
+       </property>
+       <property name="currentIndex">
+        <number>-1</number>
+       </property>
+       <property name="objectProperty" stdset="0">
+        <string notr="true">ObjectsFilter</string>
+       </property>
+       <property name="widgetAction" stdset="0">
+        <string notr="true"/>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
