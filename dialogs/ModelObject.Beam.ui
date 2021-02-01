@@ -6,14 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>357</width>
-    <height>371</height>
+    <width>432</width>
+    <height>443</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Beam Properties</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout">
+  <layout class="QGridLayout" name="gridLayout_6">
    <property name="leftMargin">
     <number>0</number>
    </property>
@@ -570,7 +570,23 @@
          <property name="widgetAction" stdset="0">
           <string/>
          </property>
-         <layout class="QGridLayout" name="gridLayout_6">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleOnPlanePosition">
+            <property name="text">
+             <string>On Plane</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">OnPlanePosition</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
           <item row="0" column="1">
            <widget class="QComboBox" name="comboBoxOnPlanePosition">
             <property name="sizePolicy">
@@ -608,147 +624,23 @@
             </item>
            </widget>
           </item>
-          <item row="3" column="1">
-           <widget class="QComboBox" name="comboBoxReversed">
-            <property name="currentText">
-             <string>No</string>
-            </property>
-            <property name="currentIndex">
-             <number>0</number>
-            </property>
-            <property name="objectProperty" stdset="0">
-             <string notr="true">Reversed</string>
-            </property>
-            <property name="widgetAction" stdset="0">
-             <string notr="true"/>
-            </property>
-            <item>
-             <property name="text">
-              <string>No</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>Yes</string>
-             </property>
-            </item>
-           </widget>
-          </item>
-          <item row="3" column="0">
-           <widget class="QCheckBox" name="checkBoxToggleReversed">
+          <item row="0" column="2">
+           <widget class="QCheckBox" name="checkBoxToggleOnPlaneDistance">
             <property name="text">
-             <string>Reversed</string>
+             <string/>
             </property>
             <property name="checked">
              <bool>true</bool>
             </property>
             <property name="objectProperty" stdset="0">
-             <string notr="true">Reversed</string>
+             <string notr="true">OnPlaneDistance</string>
             </property>
             <property name="widgetAction" stdset="0">
              <string notr="true">toggleModifyProperty</string>
             </property>
            </widget>
           </item>
-          <item row="0" column="0">
-           <widget class="QCheckBox" name="checkBoxToggleOnPlanePosition">
-            <property name="text">
-             <string>On Plane</string>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-            <property name="objectProperty" stdset="0">
-             <string notr="true">OnPlanePosition</string>
-            </property>
-            <property name="widgetAction" stdset="0">
-             <string notr="true">toggleModifyProperty</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="0">
-           <widget class="QCheckBox" name="checkBoxToggleAtDepthPosition">
-            <property name="text">
-             <string>At depth</string>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-            <property name="objectProperty" stdset="0">
-             <string notr="true">AtDepthPosition</string>
-            </property>
-            <property name="widgetAction" stdset="0">
-             <string notr="true">toggleModifyProperty</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="0">
-           <widget class="QCheckBox" name="checkBoxToggleRotationPosition">
-            <property name="text">
-             <string>Rotation</string>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-            <property name="objectProperty" stdset="0">
-             <string notr="true">RotationPosition</string>
-            </property>
-            <property name="widgetAction" stdset="0">
-             <string notr="true">toggleModifyProperty</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="3">
-           <widget class="QDoubleSpinBox" name="doubleSpinBoxAtDepthDistance">
-            <property name="decimals">
-             <number>8</number>
-            </property>
-            <property name="minimum">
-             <double>-100000000000.000000000000000</double>
-            </property>
-            <property name="maximum">
-             <double>100000000000.000000000000000</double>
-            </property>
-            <property name="objectProperty" stdset="0">
-             <string notr="true">AtDepthDistance</string>
-            </property>
-            <property name="widgetAction" stdset="0">
-             <string notr="true"/>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="1">
-           <widget class="QComboBox" name="comboBoxAtDepthPosition">
-            <property name="currentText">
-             <string>Behind</string>
-            </property>
-            <property name="currentIndex">
-             <number>2</number>
-            </property>
-            <property name="objectProperty" stdset="0">
-             <string notr="true">AtDepthPosition</string>
-            </property>
-            <property name="widgetAction" stdset="0">
-             <string notr="true"/>
-            </property>
-            <item>
-             <property name="text">
-              <string>Middle</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>Front</string>
-             </property>
-            </item>
-            <item>
-             <property name="text">
-              <string>Behind</string>
-             </property>
-            </item>
-           </widget>
-          </item>
-          <item row="0" column="3">
+          <item row="0" column="3" colspan="2">
            <widget class="QDoubleSpinBox" name="doubleSpinBoxOnPlaneDistance">
             <property name="sizeIncrement">
              <size>
@@ -770,6 +662,22 @@
             </property>
             <property name="widgetAction" stdset="0">
              <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleRotationPosition">
+            <property name="text">
+             <string>Rotation</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RotationPosition</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
             </property>
            </widget>
           </item>
@@ -809,6 +717,159 @@
             </item>
            </widget>
           </item>
+          <item row="1" column="2">
+           <widget class="QCheckBox" name="checkBoxToggleRotationAngle">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">RotationAngle</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3" colspan="2">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxPreRotAngle">
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleAtDepthPosition">
+            <property name="text">
+             <string>At depth</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">AtDepthPosition</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QComboBox" name="comboBoxAtDepthPosition">
+            <property name="currentText">
+             <string>Behind</string>
+            </property>
+            <property name="currentIndex">
+             <number>2</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">AtDepthPosition</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>Middle</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Front</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Behind</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QCheckBox" name="checkBoxToggleAtDepthDistance">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">AtDepthDistance</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="3" colspan="2">
+           <widget class="QDoubleSpinBox" name="doubleSpinBoxAtDepthDistance">
+            <property name="decimals">
+             <number>8</number>
+            </property>
+            <property name="minimum">
+             <double>-100000000000.000000000000000</double>
+            </property>
+            <property name="maximum">
+             <double>100000000000.000000000000000</double>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">AtDepthDistance</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QCheckBox" name="checkBoxToggleReversed">
+            <property name="text">
+             <string>Reversed</string>
+            </property>
+            <property name="checked">
+             <bool>true</bool>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">Reversed</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true">toggleModifyProperty</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QComboBox" name="comboBoxReversed">
+            <property name="currentText">
+             <string>No</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <property name="objectProperty" stdset="0">
+             <string notr="true">Reversed</string>
+            </property>
+            <property name="widgetAction" stdset="0">
+             <string notr="true"/>
+            </property>
+            <item>
+             <property name="text">
+              <string>No</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>Yes</string>
+             </property>
+            </item>
+           </widget>
+          </item>
           <item row="3" column="3">
            <widget class="QSpinBox" name="spinBoxRev">
             <property name="contextMenuPolicy">
@@ -834,55 +895,7 @@
             </property>
            </widget>
           </item>
-          <item row="0" column="2">
-           <widget class="QCheckBox" name="checkBoxToggleOnPlaneDistance">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-            <property name="objectProperty" stdset="0">
-             <string notr="true">OnPlaneDistance</string>
-            </property>
-            <property name="widgetAction" stdset="0">
-             <string notr="true">toggleModifyProperty</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="2">
-           <widget class="QCheckBox" name="checkBoxToggleRotationAngle">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-            <property name="objectProperty" stdset="0">
-             <string notr="true">RotationAngle</string>
-            </property>
-            <property name="widgetAction" stdset="0">
-             <string notr="true">toggleModifyProperty</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="2">
-           <widget class="QCheckBox" name="checkBoxToggleAtDepthDistance">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="checked">
-             <bool>true</bool>
-            </property>
-            <property name="objectProperty" stdset="0">
-             <string notr="true">AtDepthDistance</string>
-            </property>
-            <property name="widgetAction" stdset="0">
-             <string notr="true">toggleModifyProperty</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="3">
+          <item row="3" column="4">
            <widget class="QDoubleSpinBox" name="doubleSpinBoxRotationAngle">
             <property name="decimals">
              <number>8</number>
@@ -1022,6 +1035,9 @@
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
+            <property name="focusPolicy">
+             <enum>Qt::WheelFocus</enum>
+            </property>
             <property name="decimals">
              <number>8</number>
             </property>
@@ -1057,6 +1073,9 @@
           </item>
           <item row="1" column="5" colspan="3">
            <widget class="QDoubleSpinBox" name="doubleSpinBoxEndDx">
+            <property name="focusPolicy">
+             <enum>Qt::WheelFocus</enum>
+            </property>
             <property name="decimals">
              <number>8</number>
             </property>
@@ -1092,6 +1111,9 @@
           </item>
           <item row="2" column="1" colspan="3">
            <widget class="QDoubleSpinBox" name="doubleSpinBoxStartDy">
+            <property name="focusPolicy">
+             <enum>Qt::WheelFocus</enum>
+            </property>
             <property name="decimals">
              <number>8</number>
             </property>
