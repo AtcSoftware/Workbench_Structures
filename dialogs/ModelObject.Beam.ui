@@ -687,7 +687,7 @@
              <string>Top</string>
             </property>
             <property name="currentIndex">
-             <number>0</number>
+             <number>1</number>
             </property>
             <property name="objectProperty" stdset="0">
              <string notr="true">RotationPosition</string>
@@ -697,12 +697,12 @@
             </property>
             <item>
              <property name="text">
-              <string>Top</string>
+              <string>Front</string>
              </property>
             </item>
             <item>
              <property name="text">
-              <string>Front</string>
+              <string>Top</string>
              </property>
             </item>
             <item>
